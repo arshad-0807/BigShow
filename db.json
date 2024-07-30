@@ -1,0 +1,42 @@
+// {
+//     "series": [
+//       {
+//         "title": "Panchayat",
+//         "genre": ["Drama", "Comedy"],
+//         "rating": "9.0",
+//         "image": "panchayat.jpg",
+//         "details": "A comedy-drama, which captures the journey of an engineering graduate Abhishek, who for lack of a better job option joins as secretary of a Panchayat office in a remote village of Uttar Pradesh."
+//       },
+//       {
+//         "title": "Mirzapur",
+//         "genre": ["Drama", "Action", "Crime"],
+//         "rating": "8.5",
+//         "image": "mirzapur.jpg",
+//         "details": "A shocking incident at a wedding procession ignites a series of events entangling the lives of two families in the lawless city of Mirzapur."
+//       },
+//       {"title":"the family man",
+//       "genre":["Drama","Action","Comedy"],
+//       "rating": "8.7",
+//       "image":"familyman.jpg",
+//       "details":"A working man from the National Investigation Agency tries to protect the nation from terrorism, but he also needs to keep his family safe from his secret job."
+//     },
+//     {"title":"paatal lok",
+//       "genre":["Drama","Crime","Thrill"],
+//       "rating": "8.1",
+//       "image":"paatal.jpg",
+//       "details":"A down-and-out cop lands the case of a lifetime when four suspects are nabbed in the assassination attempt of a journalist. The pursuit leads him to 'Paatal Lok' and to shocking discoveries in the four suspects' pasts."
+//     },
+//     {"title":"The Railway Men",
+//       "genre":["Drama","History","Thrill"],
+//       "rating": "8.5",
+//       "image":"railway.jpg",
+//       "details":"After a deadly gas leaks from a factory in Bhopal, brave railway workers risk their lives to save others in the face of an unspeakable disaster."
+//     }
+//     ],
+
+//     "movies": [
+//         {
+//             "title":"hello"
+//         }
+//     ]
+// }

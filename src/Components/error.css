@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 70px 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: cursive;
+}
+
+.content h2 {
+  color: #ffc107;
+  font-weight: 600;
+}
+.content .er {
+  font-size: 10vw;
+}
+.content h1 {
+  color: #005ea2;
+  font-weight: 600;
+}
+
+.content p {
+  color: #1ccfff;
+  font-size: 20px;
+  font-family: cursive !important;
+}

@@ -1,0 +1,18 @@
+.empty-recommendation {
+  background: #444;
+}
+.response-content {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.response-content p {
+  font-size: 16px;
+  color: #dcdcdc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.history {
+  padding: 40px 20px;
+  background: #000;
+}

@@ -1,0 +1,122 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/node_modules
+
+
+
+# // const Poster = ({image})=> {
+# //   return(
+# //     <>
+# //       <img src={image} width={"100%"} alt="" />
+# //     </>
+# //   )
+# // }
+# <Poster/>
+
+# // const Genre = ({genre}) =>{
+# //   return(
+# //     <div className='genre'>
+# //           {genre.map((g, index) => (
+# //             <a href="#" key={index}>{g}</a>
+# //           ))}
+# //     </div>
+# //   );
+# // }
+
+# // const Title = ({title}) => {
+# //   return(
+# //     <h3 className='title'>{title}</h3>
+# //   )
+# // }
+
+# // const Score = ({rating})=>{
+# //   return(
+# //     <span>{rating}</span>
+# //   )
+  
+# // }
+
+# // const Point = ({rating})=>{
+# //   return(
+# //     <span className='point'>
+# //         <FontAwesomeIcon icon={faStar} className='star'/>
+# //         <Score rating={rating}/>
+# //     </span>
+# //   )
+# // }
+
+# // const Rating = ({rating})=> {
+# //   return(
+# //     <div className="rating">
+# //       <span>IMDb RATING</span>
+# //       <Point rating={rating}/>
+# //     </div>
+# //   )
+# // }
+
+# // const RatingBox = ({title, rating})=>{
+# //   return(
+# //     <>
+# //       <div className="rating-box">
+# //         <Title title={title}/>
+# //         <Rating rating={rating}/>
+# //       </div>
+# //     </>
+# //   )
+# // }
+
+# // const Details = ({details})=> {
+# //   return(
+# //     <p>{details}</p>
+# //   )
+# // }
+
+# // const SeriesCard = ({data})=>{
+# //   return (
+# //     <div className="series-card">
+# //         <Poster image={data.image}/>
+# //         <Genre genre={data.genre}/>
+# //         <RatingBox title={data.title} rating={data.rating}/>
+# //         <Details details={data.details}/>
+# //     </div>
+# //   )
+# // }
+
+
+
+
+
+# card rendering--------------------------
+
+# {/* <h2 className="box-title">
+#           Trending Web Shows
+#           <FontAwesomeIcon icon={faAngleRight} className="arrow" />{" "}
+#         </h2>
+#         <div className="card-box">
+#           {series.map((series, index) => (
+#             <SeriesCard key={index} data={series} index={index} />
+#           ))}
+#         </div> */}
+#//=================================================

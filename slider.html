@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .slider-wrapper {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .slider-item {
+            display: flex;
+            overflow: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .slider-item img {
+            width: 387px;
+            /* Adjust the size as needed */
+            height: auto;
+            /* flex-shrink: 0; */
+        }
+
+        .slider-btn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: #333;
+        }
+
+        #prev {
+            left: 10px;
+        }
+
+        #next {
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="slider-wrapper">
+            <button class="slider-btn" id="prev"> <i class="fa-solid fa-chevron-left"></i></button>
+            <div class="slider-item">
+                <img src="./public/Jackryan.webp" alt="" />
+                <img src="./public/Jackryan.webp" alt="" />
+                <img src="./public/Jackryan.webp" alt="" />
+                <img src="./public/Jackryan.webp" alt="" />
+                <img src="./public/Jackryan.webp" alt="" />
+                <img src="./public/Jackryan.webp" alt="" />
+                <img src="./public/Jackryan.webp" alt="" />
+                <img src="./public/Jackryan.webp" alt="" />
+                <img src="./public/Jackryan.webp" alt="" />
+                <img src="./public/Jackryan.webp" alt="" />
+            </div>
+            <button class="slider-btn" id="next"><i class="fa-solid fa-chevron-right "></i></button>
+        </div>
+    </div>
+
+    <script>
+        const initSlider = () => {
+            const sliderWrapper = document.querySelector(".slider-item");
+            const sliderBtns = document.querySelectorAll(".slider-btn");
+            const sliderItemWidth = document.querySelector(".slider-item img").clientWidth;
+
+            sliderBtns.forEach(button => {
+                button.addEventListener("click", () => {
+                    const direction = button.id === "prev" ? -1 : 1;
+                    const scrollAmount = sliderItemWidth * direction;
+
+                    sliderWrapper.scrollBy({
+                        left: scrollAmount,
+                        behavior: "smooth",
+                    });
+                });
+            });
+        };
+
+        window.addEventListener("load", initSlider);
+    </script>
+</body>
+
+</html>

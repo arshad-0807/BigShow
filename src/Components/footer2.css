@@ -1,0 +1,11 @@
+.footer2_container ul li a {
+  color: #1ccfff;
+}
+.footer2_container ul li a:hover {
+  opacity: 0.8;
+}
+
+.copyright {
+  text-align: center;
+  color: #999;
+}
