@@ -1,0 +1,14 @@
+{
+    "userdata":[
+        {
+            "name":"Arsh",
+            "email":"abc@gmail.com",
+            "mobile":"0123456789",
+            "dob":"01/01/1998",
+            "gender":"male",
+            "password":"12345678"
+        },
+        {}
+    ]
+
+}

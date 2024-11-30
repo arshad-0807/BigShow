@@ -3,8 +3,6 @@ import MoviesPage from "./MoviesPage";
 import SignIn from "./SignIn";
 import WebShow from "./WebShow";
 import Element from "./Element";
-import { faBookmark } from "@fortawesome/free-solid-svg-icons";
-import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import MainLayout from "../Layouts/MainLayout";
 import SearchLayout from "../Layouts/SearchLayout";
 import SignInLayout from "../Layouts/SignInLayout";
@@ -17,6 +15,12 @@ import ResetPassword from "./ResetPassword";
 import WatchList from "./WatchList";
 import SecondaryLayout from "../Layouts/SecondaryLayout";
 import ThirdLayout from "../Layouts/ThirdLayout";
+import Dashboard from "./SignedInPages/Dashboard";
+import MainHome from "./SignedInPages/MainHome";
+import SignedInLayout from "../Layouts/SignedInLayout";
+import MainMovies from "../Components/SignedInPages/MainMovies";
+import MainWebshows from "./SignedInPages/MainWebshows";
+import MainWatchlist from "./SignedInPages/MainWatchlist";
 
 export const menusRoutes = [
   {
@@ -24,6 +28,7 @@ export const menusRoutes = [
     element: <Home />,
     layout: MainLayout,
   },
+
   {
     path: "/movies-page",
     element: <MoviesPage />,
@@ -45,16 +50,6 @@ export const menusRoutes = [
     layout: SignInLayout,
   },
   {
-    path: "/element",
-    element: <Element />,
-    layout: SearchLayout,
-  },
-  {
-    path: "/error",
-    element: <Error />,
-    layout: OpenLayout,
-  },
-  {
     path: "/sign-up",
     element: <SignUp />,
     layout: SignInLayout,
@@ -73,5 +68,43 @@ export const menusRoutes = [
     path: "/reset-password",
     element: <ResetPassword />,
     layout: SignInLayout,
+  },
+  {
+    path: "/element",
+    element: <Element />,
+    layout: SearchLayout,
+  },
+
+  {
+    path: "/error",
+    element: <Error />,
+    layout: OpenLayout,
+  },
+  // SIGNED IN PAGES
+
+  {
+    path: "/main-home",
+    element: <MainHome />,
+    layout: SignedInLayout,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
+    layout: OpenLayout,
+  },
+  {
+    path: "/main-movies",
+    element: <MainMovies />,
+    layout: SignedInLayout,
+  },
+  {
+    path: "/main-webshows",
+    element: <MainWebshows />,
+    layout: SignedInLayout,
+  },
+  {
+    path: "/main-watchlist",
+    element: <MainWatchlist />,
+    layout: SignedInLayout,
   },
 ];

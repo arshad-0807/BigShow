@@ -78,7 +78,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="/error" className="nav-link">
+              <Link to="/dashboard" className="nav-link">
                 Error
               </Link>
             </li>

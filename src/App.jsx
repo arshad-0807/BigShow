@@ -1,11 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import Home from "./Components/Home";
-import MoviesPage from "./Components/MoviesPage";
+import { BrowserRouter as Router, Route, Routes, } from "react-router-dom";
 import { menusRoutes } from "../src/Components/menus";
-import MainLayout from "./Layouts/MainLayout";
-
+import React from "react";
 function App() {
   return (
     <>
@@ -28,5 +23,4 @@ function App() {
     </>
   );
 }
-
 export default App;

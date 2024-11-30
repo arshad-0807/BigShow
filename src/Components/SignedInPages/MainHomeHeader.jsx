@@ -6,31 +6,31 @@ import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const MainHomeHeader = () => {
   const headerMenus = [
     {
-      url: "/",
+      url: "/main-home",
       name: "Home",
       icon: "",
     },
     {
-      url: "/movies-page",
+      url: "/main-movies",
       name: "Movies",
       icon: "",
     },
     {
-      url: "/web-shows",
+      url: "/main-webshows",
       name: "Web Shows",
       icon: "",
     },
     {
-      url: "/watchlist",
+      url: "/main-watchlist",
       name: "Watch List",
       icon: faBookmark,
     },
     {
-      url: "/sign-in",
-      name: "Sign In",
+      url: "/dashboard",
+      name: "My Account",
       icon: faCircleUser,
     },
   ];
@@ -91,4 +91,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default MainHomeHeader;

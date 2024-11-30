@@ -1,4 +1,3 @@
-// import { FontAwesomeIcon } from "@fortawesome/fontawesome-svg-core";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 export const series = [
@@ -368,6 +367,7 @@ export const userlists = [
     emailid: "abc@gmail.com",
     password: "12345678",
     otp: "1234",
+    token: "1-abc@gmail.com",
   },
 ];
 
@@ -414,41 +414,41 @@ export const newslist = [
     newstitle: "Steve Zahn Joins ‘Silo’ for Season 2 at Apple TV+",
     info: "7/28/2024 . by Arshad Rangrej",
     img: "news1.jpg",
-    url: "/webshow",
+    url: "/error",
   },
   {
     newstitle:
       "‘Batman: Caped Crusader’: Minnie Driver Will Voice Gender-Swapped Penguin In Prime Video Animated Series",
     info: "7/28/2024 . by Arshad Rangrej",
     img: "news2.jpg",
-    url: "/webshow",
+    url: "/error",
   },
   {
     newstitle:
       "“Star Trek: Starfleet Academy” Casts Franchise Alumni Tig Notaro and Robert Picardo",
     info: "7/28/2024 . by Arshad Rangrej",
     img: "news3.jpg",
-    url: "/webshow",
+    url: "/error",
   },
   {
     newstitle:
       "O-t Fagbenle Explains How He Followed His ‘Yuck’ to Craft ‘Presumed Innocent’ Character",
     info: "7/28/2024 . by Arshad Rangrej",
     img: "news4.jpg",
-    url: "/webshow",
+    url: "/error",
   },
   {
     newstitle:
       "The Rookie Stars Tease ‘Bumpy’ Romantic Roads Ahead, Hype ‘Cop Moms’ Spinoff — Watch",
     info: "7/28/2024 . by Arshad Rangrej",
     img: "news5.jpg",
-    url: "/webshow",
+    url: "/error",
   },
   {
     newstitle: "Steve Zahn Joins ‘Silo’ for Season 2 at Apple TV+",
     info: "7/28/2024 . by Arshad Rangrej",
     img: "news1.jpg",
-    url: "/webshow",
+    url: "/error",
   },
 ];
 

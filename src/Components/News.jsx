@@ -11,7 +11,7 @@ const News = () => {
         <div className="news-items pt-4" key={index}>
           <div className="news-item">
             <div className="text-content">
-              <Link to="data.url">
+              <Link to={data.url}>
                 <h6 className="fs-italic text-primary news-heading">
                   {data.newstitle}
                 </h6>
